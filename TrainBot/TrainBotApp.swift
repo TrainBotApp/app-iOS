@@ -6,27 +6,26 @@
 //
 
 import SwiftUI
-import SwiftData
 
 @main
 struct TrainBotApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
+    @StateObject private var settings = AppSettings() // Shared app settings
+    
+    init() {
+        // Request notification authorization when app launches
+        NotificationManager.shared.requestAuthorization()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // Check if the bot setup is completed; show onboarding if not
+            if UserDefaults.standard.bool(forKey: "isBotSetupCompleted") {
+                OnboardingView()
+                    .environmentObject(settings)
+            } else {
+                BotSetupView()
+                    .environmentObject(settings)
+            }
         }
-        .modelContainer(sharedModelContainer)
     }
 }

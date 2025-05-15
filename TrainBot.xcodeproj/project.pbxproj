@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		78BBAF012DC8B75D00E32CB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78BBAEE92DC8B75B00E32CB7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78BBAEF02DC8B75B00E32CB7;
-			remoteInfo = TrainBot;
-		};
-		78BBAF0B2DC8B75D00E32CB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78BBAEE92DC8B75B00E32CB7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78BBAEF02DC8B75B00E32CB7;
-			remoteInfo = TrainBot;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		78BBAEF12DC8B75B00E32CB7 /* TrainBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		78BBAF002DC8B75D00E32CB7 /* TrainBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78BBAF0A2DC8B75D00E32CB7 /* TrainBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,34 +16,10 @@
 			path = TrainBot;
 			sourceTree = "<group>";
 		};
-		78BBAF032DC8B75D00E32CB7 /* TrainBotTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TrainBotTests;
-			sourceTree = "<group>";
-		};
-		78BBAF0D2DC8B75D00E32CB7 /* TrainBotUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TrainBotUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		78BBAEEE2DC8B75B00E32CB7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78BBAEFD2DC8B75D00E32CB7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78BBAF072DC8B75D00E32CB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				78BBAEF32DC8B75B00E32CB7 /* TrainBot */,
-				78BBAF032DC8B75D00E32CB7 /* TrainBotTests */,
-				78BBAF0D2DC8B75D00E32CB7 /* TrainBotUITests */,
 				78BBAEF22DC8B75B00E32CB7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				78BBAEF12DC8B75B00E32CB7 /* TrainBot.app */,
-				78BBAF002DC8B75D00E32CB7 /* TrainBotTests.xctest */,
-				78BBAF0A2DC8B75D00E32CB7 /* TrainBotUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +70,6 @@
 			productReference = 78BBAEF12DC8B75B00E32CB7 /* TrainBot.app */;
 			productType = "com.apple.product-type.application";
 		};
-		78BBAEFF2DC8B75D00E32CB7 /* TrainBotTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78BBAF172DC8B75D00E32CB7 /* Build configuration list for PBXNativeTarget "TrainBotTests" */;
-			buildPhases = (
-				78BBAEFC2DC8B75D00E32CB7 /* Sources */,
-				78BBAEFD2DC8B75D00E32CB7 /* Frameworks */,
-				78BBAEFE2DC8B75D00E32CB7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78BBAF022DC8B75D00E32CB7 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				78BBAF032DC8B75D00E32CB7 /* TrainBotTests */,
-			);
-			name = TrainBotTests;
-			packageProductDependencies = (
-			);
-			productName = TrainBotTests;
-			productReference = 78BBAF002DC8B75D00E32CB7 /* TrainBotTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		78BBAF092DC8B75D00E32CB7 /* TrainBotUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78BBAF1A2DC8B75D00E32CB7 /* Build configuration list for PBXNativeTarget "TrainBotUITests" */;
-			buildPhases = (
-				78BBAF062DC8B75D00E32CB7 /* Sources */,
-				78BBAF072DC8B75D00E32CB7 /* Frameworks */,
-				78BBAF082DC8B75D00E32CB7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78BBAF0C2DC8B75D00E32CB7 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				78BBAF0D2DC8B75D00E32CB7 /* TrainBotUITests */,
-			);
-			name = TrainBotUITests;
-			packageProductDependencies = (
-			);
-			productName = TrainBotUITests;
-			productReference = 78BBAF0A2DC8B75D00E32CB7 /* TrainBotUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +82,6 @@
 				TargetAttributes = {
 					78BBAEF02DC8B75B00E32CB7 = {
 						CreatedOnToolsVersion = 16.3;
-					};
-					78BBAEFF2DC8B75D00E32CB7 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 78BBAEF02DC8B75B00E32CB7;
-					};
-					78BBAF092DC8B75D00E32CB7 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 78BBAEF02DC8B75B00E32CB7;
 					};
 				};
 			};
@@ -201,28 +100,12 @@
 			projectRoot = "";
 			targets = (
 				78BBAEF02DC8B75B00E32CB7 /* TrainBot */,
-				78BBAEFF2DC8B75D00E32CB7 /* TrainBotTests */,
-				78BBAF092DC8B75D00E32CB7 /* TrainBotUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		78BBAEEF2DC8B75B00E32CB7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78BBAEFE2DC8B75D00E32CB7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78BBAF082DC8B75D00E32CB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78BBAEFC2DC8B75D00E32CB7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78BBAF062DC8B75D00E32CB7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		78BBAF022DC8B75D00E32CB7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78BBAEF02DC8B75B00E32CB7 /* TrainBot */;
-			targetProxy = 78BBAF012DC8B75D00E32CB7 /* PBXContainerItemProxy */;
-		};
-		78BBAF0C2DC8B75D00E32CB7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78BBAEF02DC8B75B00E32CB7 /* TrainBot */;
-			targetProxy = 78BBAF0B2DC8B75D00E32CB7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		78BBAF122DC8B75D00E32CB7 /* Debug */ = {
@@ -400,6 +256,8 @@
 				DEVELOPMENT_TEAM = RK92XXY52G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TrainBot;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +286,8 @@
 				DEVELOPMENT_TEAM = RK92XXY52G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TrainBot;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -443,78 +303,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		78BBAF182DC8B75D00E32CB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RK92XXY52G;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TrainBot.TrainBotTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainBot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrainBot";
-			};
-			name = Debug;
-		};
-		78BBAF192DC8B75D00E32CB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RK92XXY52G;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TrainBot.TrainBotTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainBot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrainBot";
-			};
-			name = Release;
-		};
-		78BBAF1B2DC8B75D00E32CB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RK92XXY52G;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TrainBot.TrainBotUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TrainBot;
-			};
-			name = Debug;
-		};
-		78BBAF1C2DC8B75D00E32CB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RK92XXY52G;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TrainBot.TrainBotUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TrainBot;
 			};
 			name = Release;
 		};
@@ -535,24 +323,6 @@
 			buildConfigurations = (
 				78BBAF152DC8B75D00E32CB7 /* Debug */,
 				78BBAF162DC8B75D00E32CB7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78BBAF172DC8B75D00E32CB7 /* Build configuration list for PBXNativeTarget "TrainBotTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78BBAF182DC8B75D00E32CB7 /* Debug */,
-				78BBAF192DC8B75D00E32CB7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78BBAF1A2DC8B75D00E32CB7 /* Build configuration list for PBXNativeTarget "TrainBotUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78BBAF1B2DC8B75D00E32CB7 /* Debug */,
-				78BBAF1C2DC8B75D00E32CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
