@@ -20,7 +20,7 @@ struct DailyChallengeView: View {
                 endPoint: .bottom
             )
             .ignoresSafeArea()
-            
+                        
             VStack(spacing: 25) {
                 // Title for the daily challenge view
                 Text("Daily Challenge")
