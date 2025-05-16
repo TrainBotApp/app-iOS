@@ -23,7 +23,7 @@ struct KnowledgeView: View {
                     .fontWeight(.bold)
                     .shadow(color: .gray, radius: 2, x: 0, y: 2)
                     .padding(.top, 30)
-                
+            
                 // Description of the knowledge base
                 Text("Discover and organize your collected images to train your bot.")
                     .font(.subheadline)
